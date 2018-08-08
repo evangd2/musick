@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/styles/artist.css">
+    <title>Artist Page</title>
+  </head>
+  <body>
+    <header>{{ name }}'s page</header>
+    <div id="photo"><img src="/media/{{ image }}"></div>
+    <div id="player"><iframe src="https://open.spotify.com/embed?uri=spotify:artist:{{ artist_id }}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+  </body>
+</html>
